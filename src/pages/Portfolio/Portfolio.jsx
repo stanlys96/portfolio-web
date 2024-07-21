@@ -101,35 +101,39 @@ const Portfolio = () => {
                     loading="lazy"
                   />
                 </figure>
-                <h3 className="project-title">{project.title}</h3>
-                <span className="project-title company-color">
-                  {project.company}
-                </span>
-                <div className="projects-container">
-                  {project.categories.map((cat) => (
-                    <span
-                      className={`${
-                        cat === "Mobile App"
-                          ? "green-value"
-                          : cat === "Website"
-                          ? "blue-value"
-                          : "yellow-value"
-                      } project-category`}
-                    >
-                      {cat}
-                    </span>
-                  ))}
+                <div className="project-subcontainer">
+                  <h3 className="project-title">{project.title}</h3>
+                  <span className="project-title company-color">
+                    {project.company}
+                  </span>
+                  <div className="projects-container">
+                    {project.categories.map((cat) => (
+                      <span
+                        className={`${
+                          cat === "Mobile App"
+                            ? "green-value"
+                            : cat === "Website"
+                            ? "blue-value"
+                            : "yellow-value"
+                        } project-category`}
+                      >
+                        {cat}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </a>
-              <a
-                href={project?.link}
-                target="_blank"
-                className={`${
-                  project.available ? "button-portfolio" : "button-restricted"
-                }`}
-              >
-                {project.projectMessage}
-              </a>
+              <div>
+                <a
+                  href={project?.link}
+                  target="_blank"
+                  className={`${
+                    project.available ? "button-portfolio" : "button-restricted"
+                  }`}
+                >
+                  {project.projectMessage}
+                </a>
+              </div>
             </li>
           ))}
         </ul>

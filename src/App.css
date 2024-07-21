@@ -1033,6 +1033,12 @@ main {
   transition: var(--transition-1);
 }
 
+.project-item {
+  border-radius: 8px;
+  background-color: #0f172a;
+  padding: 10px;
+}
+
 .project-item > a:hover img {
   transform: scale(1.1);
 }
