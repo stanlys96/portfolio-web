@@ -27,6 +27,8 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState();
 
   // Load project data from projects.json
+
+  // Load project data from projects.json
   useEffect(() => {
     fetch("/projects.json")
       .then((response) => response.json())
