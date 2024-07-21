@@ -53,7 +53,7 @@ const Portfolio = () => {
   return (
     <section className="portfolio" data-page="portfolio">
       <header>
-        <h2 className="h2 article-title">Portfolio</h2>
+        <h2 className="h2 portfolio-title article-title">Portfolio</h2>
       </header>
       <p className="total-text">
         Total: {filteredProjects?.length ?? "0"} projects

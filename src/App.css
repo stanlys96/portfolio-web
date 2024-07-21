@@ -847,9 +847,9 @@ main {
 
 .filter-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 5px;
   padding-left: 5px;
   margin-bottom: 30px;
   flex-wrap: wrap;
@@ -860,14 +860,19 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-5);
   transition: var(--transition-1);
+  border-radius: 20px;
+  padding: 5px 15px;
 }
 
 .filter-item button:hover {
-  color: var(--light-gray-70);
+  color: var(--orange-yellow-crayola) !important;
 }
 
 .filter-item button.active {
-  color: var(--orange-yellow-crayola);
+  color: white !important;
+  background-color: var(--orange-yellow-crayola);
+  border-radius: 20px;
+  padding: 5px 15px;
 }
 
 .filter-select-box {
@@ -1688,9 +1693,9 @@ textarea.form-input::-webkit-resizer {
 
   .filter-list {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 5px;
     padding-left: 5px;
     margin-bottom: 30px;
   }
@@ -1699,6 +1704,8 @@ textarea.form-input::-webkit-resizer {
     color: var(--light-gray);
     font-size: var(--fs-5);
     transition: var(--transition-1);
+    border-radius: 20px;
+    padding: 5px 15px;
   }
 
   .filter-item button:hover {
@@ -2053,6 +2060,7 @@ textarea.form-input::-webkit-resizer {
 .total-text {
   color: white;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .company-color {
@@ -2073,4 +2081,10 @@ textarea.form-input::-webkit-resizer {
 
 .contact-link {
   cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .portfolio-title {
+    text-align: center;
+  }
 }
