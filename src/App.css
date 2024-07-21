@@ -2109,3 +2109,12 @@ textarea.form-input::-webkit-resizer {
     gap: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  section {
+    background: var(--eerie-black-2);
+    /* border: 1px solid var(--jet); */
+    padding: 6px;
+    border-radius: 20px;
+  }
+}
