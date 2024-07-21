@@ -499,6 +499,9 @@ main {
   padding: 0 10px;
 }
 
+.navbar-item {
+}
+
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-8);
@@ -2092,5 +2095,13 @@ textarea.form-input::-webkit-resizer {
 @media (max-width: 1200px) {
   .portfolio-title {
     text-align: center;
+  }
+
+  .navbar-link {
+    font-size: 20px;
+  }
+
+  .navbar-list {
+    gap: 20px;
   }
 }
