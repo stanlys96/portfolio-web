@@ -1,57 +1,184 @@
 [
-    {
-      "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "images/project-2.png"
-    },
-    {
-      "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
-      "category": "Web development",
-      "image": "images/project-7.png"
-    },
-    {
-      "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
-      "category": "Web development",
-      "image": "images/project-9.png"
-    }
-  ]
-  
+  {
+    "id": 14,
+    "title": "Seamless Finance",
+    "company": "Freelance",
+    "categories": ["Website", "Web3"],
+    "image": "images/seamless-crypto.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Users are able to perform onramp and offramp on the cryptocurrencies available on the website. Only Indonesian Rupiah is available for the fiat currency.",
+    "link": "https://app.seamless.finance/"
+  },
+  {
+    "id": 13,
+    "title": "Flappy Blast",
+    "company": "Freelance",
+    "categories": ["Website", "Web3"],
+    "image": "images/flappyblast.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Landing page of the meme coin Flappy Blast. Involved in creating the landing page, interacting with the smart contract and developing the flappy blast game.",
+    "link": "https://www.flappyblast.com/"
+  },
+  {
+    "id": 1,
+    "title": "Hyfen Play",
+    "company": "Hyfen",
+    "categories": ["Mobile App", "Web3"],
+    "image": "images/play.png",
+    "available": true,
+    "projectMessage": "Go To Play Store",
+    "description": "Portal for web3 games. Making users more convenient to play and transact with web3 games.",
+    "link": "https://play.google.com/store/apps/details?id=com.metabase.gg&hl=en"
+  },
+  {
+    "id": 2,
+    "title": "Hyfen Landing Page",
+    "company": "Hyfen",
+    "categories": ["Website"],
+    "image": "images/hyfen.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Hyfen landing page",
+    "link": "https://www.hyfen.gg/"
+  },
+  {
+    "id": 15,
+    "title": "Seamless Finance",
+    "company": "Freelance",
+    "categories": ["Website"],
+    "image": "images/seamless-landing.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Landing page for Seamless Finance",
+    "link": "https://www.seamless.finance/"
+  },
+  {
+    "id": 17,
+    "title": "Avis Budget Group",
+    "company": "PT Photon",
+    "categories": ["Mobile App"],
+    "image": "images/avisbudgetgroup.jpeg",
+    "available": false,
+    "projectMessage": "In Development",
+    "description": "Car rental app. Users can rent cars. This app is available for people in the US, Europe and Australia."
+  },
+  {
+    "id": 16,
+    "title": "Focus Brands",
+    "company": "PT Photon",
+    "categories": ["Mobile App"],
+    "image": "images/focus-brands.jpeg",
+    "available": false,
+    "projectMessage": "In Development",
+    "description": "Food delivery app for a US company. Users can order food to be delivered, or order food in advance and pick up."
+  },
+
+  {
+    "id": 3,
+    "title": "Hyfen Tools",
+    "company": "Hyfen",
+    "categories": ["Website"],
+    "image": "images/tools.png",
+    "available": false,
+    "projectMessage": "Restricted",
+    "description": "Making managers more convenient to manage guilds."
+  },
+  {
+    "id": 4,
+    "title": "Hyfen Admin",
+    "company": "Hyfen",
+    "categories": ["Website"],
+    "image": "images/admin.png",
+    "available": false,
+    "projectMessage": "Restricted",
+    "description": "Web App for Metabase internal to manage data."
+  },
+  {
+    "id": 5,
+    "title": "Hyfen Pay",
+    "company": "Hyfen",
+    "categories": ["Website"],
+    "image": "images/pay.png",
+    "available": false,
+    "projectMessage": "Restricted",
+    "description": "Analytics and monitoring web app. Designed to monitor user transactions."
+  },
+  {
+    "id": 6,
+    "title": "Gloria Alumni App",
+    "company": "Freelance",
+    "categories": ["Mobile App"],
+    "image": "images/gloria-2.png",
+    "available": true,
+    "projectMessage": "Go To Play Store",
+    "description": "Mobile app for Gloria Alumni to connect with each other.",
+    "link": "https://play.google.com/store/apps/details?id=com.gloria1_alumni_apps&hl=id"
+  },
+  {
+    "id": 7,
+    "title": "Ad1Sales (Adira)",
+    "company": "Adira Finance",
+    "categories": ["Mobile App"],
+    "image": "images/adira-2.png",
+    "available": false,
+    "projectMessage": "Restricted",
+    "description": "Mobile app for Adira internal to manage the data of Adira's branches."
+  },
+  {
+    "id": 10,
+    "title": "Escape Official NFT",
+    "company": "Freelance",
+    "categories": ["Website", "Web3"],
+    "image": "images/escape-official.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Website to mint escApe Official NFT.",
+    "link": "https://escape-official.vercel.app/"
+  },
+  {
+    "id": 11,
+    "title": "NFT Marketplace",
+    "company": "Personal",
+    "categories": ["Website", "Web3"],
+    "image": "images/nft-marketplace.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Website for buying and selling NFTs.",
+    "link": "https://nft-marketplace-goerli.vercel.app/"
+  },
+  {
+    "id": 12,
+    "title": "Staking dApp",
+    "company": "Personal",
+    "categories": ["Website", "Web3"],
+    "image": "images/staking-dapp.png",
+    "available": true,
+    "projectMessage": "Go To Website",
+    "description": "Website to stake tokens.",
+    "link": "https://staking-dapp-goerli.vercel.app/"
+  },
+  {
+    "id": 8,
+    "title": "Fashionee",
+    "company": "Personal",
+    "categories": ["Mobile App"],
+    "image": "images/fashionee.png",
+    "available": true,
+    "projectMessage": "Go To GitHub Repo",
+    "description": "E-commerce mobile application",
+    "link": "https://github.com/stanlys96/flutter-ecommerce-app"
+  },
+  {
+    "id": 9,
+    "title": "Good Food",
+    "company": "Personal",
+    "categories": ["Mobile App"],
+    "image": "images/good-food-3.png",
+    "available": true,
+    "projectMessage": "Go To GitHub Repo",
+    "description": "Restaurant mobile application",
+    "link": "https://github.com/stanlys96/good_food_app"
+  }
+]
