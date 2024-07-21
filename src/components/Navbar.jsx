@@ -1,45 +1,26 @@
-import { useLocation } from "react-router-dom";
+import { NavLink, Navigate } from "react-router-dom";
+import { useRef } from "react";
 
 const Navbar = () => {
-  const location = useLocation();
-  console.log(location.pathname);
   return (
     <nav className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <a
-            href="/"
-            className={`navbar-link ${
-              location.pathname === "/" && "active-link"
-            }`}
-            data-nav-link
-          >
+          <NavLink to="/" className="navbar-link" data-nav-link>
             About
-          </a>
+          </NavLink>
         </li>
 
         <li className="navbar-item">
-          <a
-            href="/resume"
-            className={`navbar-link ${
-              location.pathname === "/resume" && "active-link"
-            }`}
-            data-nav-link
-          >
+          <NavLink to="/resume" className="navbar-link" data-nav-link>
             Resume
-          </a>
+          </NavLink>
         </li>
 
         <li className="navbar-item">
-          <a
-            href="/portfolio"
-            className={`navbar-link ${
-              location.pathname === "/portfolio" && "active-link"
-            }`}
-            data-nav-link
-          >
+          <NavLink to="/portfolio" className="navbar-link" data-nav-link>
             Portfolio
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>
