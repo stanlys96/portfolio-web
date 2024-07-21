@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaBookReader, FaRegBookmark } from "react-icons/fa";
 import TimelineItem from "./TimelineItem";
-import SkillItem from "./SkillItem";
 
 const Resume = () => {
   return (

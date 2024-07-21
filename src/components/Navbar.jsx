@@ -1,5 +1,4 @@
-import { NavLink, Navigate } from "react-router-dom";
-import { useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
