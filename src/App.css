@@ -994,7 +994,7 @@ main {
   overflow: hidden;
   margin-bottom: 15px;
   object-fit: cover;
-  border: 1px solid #ffef8a;
+  border: 1px dashed #ffef8a;
 }
 
 .project-img::before,
