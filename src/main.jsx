@@ -9,6 +9,9 @@ import Blogs from "./pages/Blogs/Blogs.jsx";
 import Resume from "./pages/Resume/Resume.jsx";
 import About from "./pages/About/About.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
+import { inject } from "@vercel/analytics";
+
+inject();
 
 const router = createBrowserRouter([
   {
