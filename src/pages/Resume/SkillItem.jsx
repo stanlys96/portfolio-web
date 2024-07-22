@@ -1,9 +1,12 @@
-const SkillItem = ({ title, value, imageUrl, bgWhite }) => {
+const SkillItem = ({ title, value, imageUrl, bgWhite, rounded }) => {
   return (
     <li className="skills-item">
       <div className="skills-container">
         <img
-          style={{ background: bgWhite ? "white" : "none" }}
+          style={{
+            background: bgWhite ? "white" : "none",
+            borderRadius: rounded ? "50%" : 0,
+          }}
           alt="walao"
           src={imageUrl}
           width={30}

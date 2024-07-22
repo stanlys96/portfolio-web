@@ -5,12 +5,16 @@ const TimelineItem = ({
   position,
   imageUrl,
   bgWhite,
+  rounded,
 }) => {
   return (
     <li className="timeline-item">
       <div className="logo-container">
         <img
-          style={{ backgroundColor: "white" }}
+          style={{
+            backgroundColor: "white",
+            borderRadius: rounded ? "50%" : 0,
+          }}
           width={50}
           height={50}
           src={imageUrl}

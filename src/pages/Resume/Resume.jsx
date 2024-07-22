@@ -23,6 +23,7 @@ const Resume = () => {
             position="Full Stack JavaScript Immersive Program"
             description="Learned to create website and mobile apps from scratch (front-end, back-end, database). Graduated with 98.41% final grade."
             imageUrl="images/hacktiv8.png"
+            rounded
           />
           <TimelineItem
             title="Unitec Institute of Technology"
@@ -68,6 +69,7 @@ const Resume = () => {
             position="Web & Mobile Developer"
             date="Jan 2023 — Apr 2023"
             imageUrl="images/hyfen.jpeg"
+            rounded
             description={`Responsibilities:<br />
             1. Developing and maintaining decentralized applications (dApps) on blockchain platforms.<br/>
 2. Collaborating with designers, developers, and stakeholders to develop functional and intuitive user interfaces.<br/>
@@ -81,6 +83,7 @@ const Resume = () => {
             position="Flutter Developer"
             date="Aug 2021 - Dec 2022"
             imageUrl="images/adira.png"
+            rounded
             description={`Responsibilities:<br />
             1. Developing mobile apps and web applications for Adira's internal use.<br/>
 2. Developing and maintaining scalable and efficient frontend architectures that support the development of high-quality mobile applications.<br/>

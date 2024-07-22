@@ -92,6 +92,7 @@ const About = () => {
             imageUrl="images/solidity.png"
             title="Solidity"
             value={70}
+            rounded
           />
           <SkillItem imageUrl="images/hardhat.png" title="Hardhat" value={70} />
           <SkillItem
