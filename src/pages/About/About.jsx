@@ -77,13 +77,34 @@ const About = () => {
       <div className="skill">
         <h3 className="h3 skills-title">My skills</h3>
         <ul className="skills-list content-card">
-          <SkillItem title="React, Next JS" value={80} />
-          <SkillItem title="React Native" value={80} />
-          <SkillItem title="Flutter" value={70} />
-          <SkillItem title="Solidity" value={70} />
-          <SkillItem title="Hardhat" value={70} />
-          <SkillItem title="Node JS, Express JS, Nest JS" value={75} />
-          <SkillItem title="PostgreSQL" value={75} />
+          <SkillItem
+            imageUrl="images/nextjs.png"
+            title="React, Next JS"
+            value={80}
+          />
+          <SkillItem
+            imageUrl="images/react.svg"
+            title="React Native"
+            value={80}
+          />
+          <SkillItem imageUrl="images/flutter.png" title="Flutter" value={70} />
+          <SkillItem
+            imageUrl="images/solidity.png"
+            title="Solidity"
+            value={70}
+          />
+          <SkillItem imageUrl="images/hardhat.png" title="Hardhat" value={70} />
+          <SkillItem
+            imageUrl="images/nodejs.png"
+            title="Node JS, Express JS, Nest JS"
+            value={75}
+          />
+          <SkillItem
+            bgWhite
+            imageUrl="images/postgre.webp"
+            title="PostgreSQL"
+            value={75}
+          />
         </ul>
       </div>
     </article>

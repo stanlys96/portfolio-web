@@ -826,7 +826,7 @@ main {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 
 .skill .title-wrapper data {
@@ -2108,6 +2108,10 @@ textarea.form-input::-webkit-resizer {
   .navbar-list {
     gap: 20px;
   }
+
+  .main-content {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2117,4 +2121,18 @@ textarea.form-input::-webkit-resizer {
     padding: 6px;
     border-radius: 20px;
   }
+}
+
+.nav-subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
 }
